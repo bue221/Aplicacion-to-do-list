@@ -25,12 +25,21 @@
             <input type="text" id="Tarea" class="form-control mb-3">
             <button type="submit" class="btn btn-dark" onclick=nuevatarea()>Agregar tarea</button>
         </div>
-
-        <ul id="contenedor">
-            <li>
-
-            </li>
-        </ul>
+        <div class="row">
+            <ul id="contenedor" class="col-6">
+                <h1 class="text-center">Tareas a realizar</h1>
+                <li class="mb-2">Besar a mi novio<button class="btn btn-outline-success ml-2">completado</button></li>
+                <li class="mb-2">Abrazar a mi novio<button class="btn btn-outline-success ml-2">completado</button></li>
+                <li class="mb-2">Te amo linda<button class="btn btn-outline-success ml-2">completado</button></li>
+                <li class="mb-2">Me facinas!!!!!!!!!<button class="btn btn-outline-success ml-2">completado</button></li>
+            </ul>
+    
+            <ul id="completado" class="col-6">
+                <h1 class="text-center">Tareas compleatadas</h1>
+    
+            </ul>
+        </div>
+        
     </div>
     <script src="script.js"></script>
 </body>
