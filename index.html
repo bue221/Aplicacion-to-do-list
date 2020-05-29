@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body> 
+    <div class="container">
+        
+        <div class="d-flex justify-content-center">
+            <h1 class="mt-5">Lista de tareas</h1>
+        </div>
+        
+
+        <div class="form-group container">
+            <label for="tarea">Ingrese las tareas a realizar: </label>
+            <input type="text" id="Tarea" class="form-control mb-3">
+            <button type="submit" class="btn btn-dark" onclick=nuevatarea()>Agregar tarea</button>
+        </div>
+
+        <ul id="contenedor">
+            <li>
+
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
